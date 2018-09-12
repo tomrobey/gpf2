@@ -9,14 +9,14 @@ html {
     color: #555;
 }
 
-nav {
+ul, nav {
     list-style: none;
 }
 
 a {
     text-decoration: none;
     opacity: .8;
-    font: #fff;
+    /* font: #fff; */
     color: inherit;
     cursor: pointer;
   
@@ -29,7 +29,7 @@ a:hover {
 a.btn{
 	color: #fff;
 	border-radius: 4px;
-	text-transform: uppercase;
+	text-transform: uppercase;  
 	background-color: rgb(18, 33, 247);
 	font-weight: 800;
 	text-align: center;
@@ -49,7 +49,26 @@ section {
     align-items: center;
     padding: 100px;
 }
+/* @media (max-width: 1000px){
+
+	section{
+		padding: 100px 50px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	section{
+		padding: 80px 30px;
+	}
+
+} */
+
+
+
 section h3.title {
+    color: orange;
     text-transform: capitalize;
     font: bold 60px 'Open Sans', sans-serif;
     margin-bottom: 30px;
